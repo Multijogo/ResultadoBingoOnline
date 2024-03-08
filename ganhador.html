@@ -13,16 +13,55 @@
  
 
 
- <script>
- setTimeout(function() { window.location.href ="https://csrmulti.github.io/Multijogo/index.html"; }, 6000); // 3 minutos
- </script>
+
    <title>GANHADOR BINGO</title>
    <h class="nCartela">CARTELA PREMIADA </h>
    </head><div class="sep">
 
-<button class="btn">
+<button class="blink">
+07
 </button><br>
-<num class="nu">numero sorteado:<br><b clasa="num">aguarde...
+<num class="nu">numero sorteado:<br><b clasa="num">
+
+1
+
+4
+
+12
+
+20
+
+30
+
+31
+
+34
+
+35
+
+36
+
+39
+
+46
+
+47
+
+52
+
+54
+
+55
+
+57
+
+59
+
+60
+
+62
+
+77
 
 
 </num><br><br>
@@ -38,7 +77,7 @@ body {
     tex-aligh:center;
 }
 
-.btn {
+.blink {
     position:relative;
     bottom:0px;
     margin-left:25%;
@@ -69,5 +108,15 @@ body {
     color:blue;
 }
 </style>
+<style>
+.blink { animation: blink 3s infinite; } 
+@keyframes blink { 
+0% { opacity: 1; }
+ 50% { opacity: 0; transform: scale(2); } 
+ 51% { opacity: 0; transform: scale(0); }
+ 100% { transform: scale(1); opacity: 1; }
+  }
+</style>
+
 </body>
 </html>
